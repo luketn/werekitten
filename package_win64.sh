@@ -19,7 +19,7 @@ ${JPACKAGE_HOME}/bin/jpackage --package-type msi \
     --resource-dir ./src/main/deploy/jpackage \
     -i ./target/jpackage-app \
     --icon ./src/main/resources/icons/app.ico \
-    --main-class com.mycodefu.start.Start \
+    --main-class com.mycodefu.Start \
     --main-jar WereKitten.jar \
     --app-version 1.0 \
     --license-file ./LICENSE \
@@ -29,7 +29,5 @@ ${JPACKAGE_HOME}/bin/jpackage --package-type msi \
     --vendor "Jett Thompson" \
     --verbose \
     --win-shortcut \
-    --win-menu
-    
-#    --win-dir-chooser \
-    
+    --win-menu \
+    --win-dir-chooser
